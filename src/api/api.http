@@ -1,0 +1,23 @@
+# @name getAllMovies
+GET https://api.themoviedb.org/3/movie/now_playing
+    ?api_key=d70e071e1e8d3f3ff37e34a652772c9a
+    &language=es-ES
+
+###
+
+# @name getImage
+GET https://image.tmdb.org/t/p/w500/dOheGvNG4lIGA4NSBcSxuYpaLiX.jpg
+
+###
+
+# @name getOneMovieData-MovieId
+GET https://api.themoviedb.org/3/movie/527774
+    ?api_key=d70e071e1e8d3f3ff37e34a652772c9a
+    &language=es-ES
+
+###
+
+# @name getOneMovieData-Credits
+GET https://api.themoviedb.org/3/movie/527774/credits
+    ?api_key=d70e071e1e8d3f3ff37e34a652772c9a
+    &language=es-ES
